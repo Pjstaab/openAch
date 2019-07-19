@@ -21,23 +21,20 @@
     ]
   },
   "dependencies": {
-    "async-file": "^2.0.2",
-    "bunyan": "^1.8.12",
-    "minimist": "^1.2.0",
-    "uuid": "^3.3.2",
-    "winston": "^3.0.0"
+    "async-file": "^2.0.2"
   },
   "devDependencies": {
-    "@types/chai": "^4.1.4",
-    "@types/mocha": "^5.2.5",
-    "@types/node": "^8.10.21",
-    "@types/uuid": "^3.4.3",
-    "chai": "^4.1.2",
-    "concurrently": "^3.6.1",
-    "mocha": "^5.2.0",
-    "nexe": "^2.0.0-rc.31",
-    "nodemon": "^1.18.3",
-    "nyc": "^12.0.2",
-    "typescript": "^2.9.2"
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.6.8",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-typescript": "^4.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "jest": "^24.8.0",
+    "jest-junit": "^6.4.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
   }
 }
