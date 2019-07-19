@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 describe("Unit CCD File Parsing", () => {
     it("parses basic ccd file", async () => {
-        let result = await AchParser.parseAchFile(resolve('src', 'fixtures', 'basicCCDFile.ach'));
+        let result = await AchParser.parseAchFile(resolve('fixtures', 'basicCCDFile.ach'));
         expect(result.fileHeader).not.toEqual(null);
         expect(result.batches).not.toEqual(null);
         expect(result.batches.length).toEqual(1);

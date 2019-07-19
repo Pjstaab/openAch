@@ -4,7 +4,7 @@ import { resolve } from 'path';
 
 describe("Unit POS File Parsing", () => {
    it("parses basic pos file", async () => {
-        let result = await AchParser.parseAchFile(resolve('src', 'fixtures', 'basicPosFile.ach'));
+        let result = await AchParser.parseAchFile(resolve('fixtures', 'basicPosFile.ach'));
         expect(result.fileHeader).not.toEqual(null);
         expect(result.batches).not.toEqual(null);
         expect(result.batches.length).toEqual(1);
